@@ -1,4 +1,35 @@
 module.exports = {
   root: true,
   extends: '@react-native',
-};
+  rules: {
+    'prettier/prettier': 0,
+    curly: ['error', 'multi-line'],
+    semi: ['error', 'never'],
+    'no-unneeded-ternary': 'error',
+    'no-nested-ternary': 'error',
+    indent: ['error', 2, { SwitchCase: 1 }],
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'jsx-quotes': ['error', 'prefer-single'],
+    'object-curly-spacing': ['error', 'always'],
+    // 'array-bracket-spacing': [ 'error', 'always' ],
+    'no-undef': 'off',
+    '@typescript-eslint/no-namespace': 'off',
+    // 'no-unused-vars': 'off',
+    'react/jsx-curly-brace-presence': [
+      'error',
+      { props: 'never', children: 'never' },
+    ],
+    'react-native/no-unused-styles': 2,
+    'no-param-reassign': 'error',
+    'no-single-element-style-arrays': 'off',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-var-requires': 0,
+    'no-empty-function': ['error', { allow: ['arrowFunctions'] }],
+    '@typescript-eslint/no-empty-function': [
+      'error',
+      { allow: ['arrowFunctions'] },
+    ],
+    // '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
+  },
+}
