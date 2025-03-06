@@ -7,10 +7,13 @@
 
 import React from 'react'
 import RootNavigator from './Navigation'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 function App(): React.JSX.Element {
   return (
-    <RootNavigator />
+    <SafeAreaProvider>
+      <RootNavigator />
+    </SafeAreaProvider>
   )
 }
 

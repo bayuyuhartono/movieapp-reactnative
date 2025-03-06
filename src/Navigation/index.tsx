@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { NavigationContainer } from '@react-navigation/native'
+import { DarkTheme, NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { RootStackParamList } from './types'
 import ROUTES from '../config/routes'
@@ -10,7 +10,7 @@ const RootNavigator = () => {
   const RootStack = createNativeStackNavigator<RootStackParamList>()
 
   return (
-    <NavigationContainer>
+    <NavigationContainer theme={DarkTheme}>
       <RootStack.Navigator screenOptions={{ headerShown: false, animation: 'none' }}>
         <RootStack.Screen
           name={ROUTES.MAIN_APP}
