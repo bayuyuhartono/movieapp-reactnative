@@ -3,7 +3,7 @@ import { MainNavigatorParamsList } from './types'
 import { Props } from '../types'
 import { FC } from 'react'
 import ROUTES from '../../config/routes'
-import MovieDetailScreen from '../../screen/MovieDetail'
+import MovieDetailScreen from '../../screens/movie_detail'
 
 const Stack = createNativeStackNavigator<MainNavigatorParamsList>()
 
