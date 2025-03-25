@@ -6,7 +6,7 @@
  */
 
 import React from 'react'
-import RootNavigator from './Navigation'
+import RootNavigator from './navigation'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 function App(): React.JSX.Element {

@@ -1,9 +1,9 @@
 import React, { FC } from 'react'
 import { StyleSheet, Text } from 'react-native'
 import ROUTES from '../../config/routes'
-import { MainBottomTabScreenProps } from '../../Navigation/MainBottomTabNavigator/types'
+import { MainBottomTabScreenProps } from '../../navigation/main_bottom_tab_navigator/types'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import CategoryList from '../Components/category_list'
+import CategoryList from '../components/category_list'
 
 type Props = MainBottomTabScreenProps<ROUTES.HOME>
 

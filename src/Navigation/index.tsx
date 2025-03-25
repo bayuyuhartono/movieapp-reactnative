@@ -3,8 +3,8 @@ import { DarkTheme, NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { RootStackParamList } from './types'
 import ROUTES from '../config/routes'
-import { MainBottomTabNavigator } from './MainBottomTabNavigator'
-import { MainNavigator } from './MainNavigator'
+import { MainBottomTabNavigator } from './main_bottom_tab_navigator'
+import { MainNavigator } from './main_navigator'
 
 const RootNavigator = () => {
   const RootStack = createNativeStackNavigator<RootStackParamList>()

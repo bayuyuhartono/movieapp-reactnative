@@ -2,9 +2,9 @@ import React, { FC } from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { MainBottomTabParamList, Props } from './types'
 import ROUTES from '../../config/routes'
-import HomeScreen from '../../Screen/HomeScreen'
-import SearchScreen from '../../Screen/SearchScreen'
-import ProfileScreen from '../../Screen/ProfileScreen'
+import HomeScreen from '../../screens/home_screen'
+import SearchScreen from '../../screens/search_screen'
+import ProfileScreen from '../../screens/profile_screen'
 
 const BottomTab = createBottomTabNavigator<MainBottomTabParamList>()
 
