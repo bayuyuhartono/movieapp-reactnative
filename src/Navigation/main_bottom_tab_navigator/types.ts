@@ -2,7 +2,7 @@ import { BottomTabScreenProps } from '@react-navigation/bottom-tabs'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import { RootStackParamList } from '../types'
 import ROUTES from '../../config/routes'
-import { MainNavigatorParamsList } from '../MainNavigator/types'
+import { MainNavigatorParamsList } from '../main_navigator/types'
 import { NavigatorScreenParams } from '@react-navigation/native'
 
 export type MainBottomTabParamList = {
